@@ -1,1 +1,4 @@
 # IntrotoIM
+
+*italics*
+**bold**
