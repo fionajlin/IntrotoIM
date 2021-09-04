@@ -109,7 +109,9 @@ void draw() {
 }
 ```
 
-In particular, I had a lot of trouble with the radian values used for the hair. I originally wanted to use two arc function half circles in order to create my side part, but I had a lot of trouble determining the radian value of the start and end points I wanted to use, and instead decided to use just a regular half circle and add a triangular cutout to indicate the hair shape instead. 
+In particular, I had a lot of trouble with the radian values used for the hair. I originally wanted to use two arc function half circles in order to create my side part, but I had a lot of trouble determining the radian value of the start and end points I wanted to use, and instead decided to use just a regular half circle and add a triangular cutout to indicate the hair shape instead. I still like how the hair came out in the end, so I was pretty happy with the method I chose.
+
+Overall, I enjoyed this project and thought it was a very good way to familiarize myself with the basic features of Processing. Furthermore, I'm actually quite proud of how my self-portrait came out, considering that I had little to no coding experience before this, so I was satisfied for the most part. 
   
 
 
