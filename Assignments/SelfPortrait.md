@@ -1,1 +1,5 @@
+## Self Portrait With Processing
+### Week 1 | Fiona Lin
+
+For our first project with Processing, we were asked to create a self-portrait through coding. I began the project with a bit of apprehension, as I'm not very confident with activities such as coding, and I realized through the practical lessons on Processing that it would be really difficult to achieve something that actually looked realistic and like myself. In the end, I decided to just play around freely in Processing without putting too much emphasis on creating a well-developed or "proper" work of art, and instead focus on familiarizing myself with the program itself. 
 
