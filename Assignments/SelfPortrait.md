@@ -7,8 +7,7 @@ For the actual development of my self portrait, I began by setting up the active
 
 The section of code we were given in class was as follows: 
 
-```// Active mode
-
+```
 void setup() {
   size (500, 500);
 }
@@ -21,12 +20,12 @@ void draw() {
 
   // use mouseX and mouseY to draw a small circle
   circle (mouseX, mouseY, 30);
-  println("mouse coordinates = " + mouseX +"," + mouseY);```
+  println("mouse coordinates = " + mouseX +"," + mouseY);
+  ```
   
   which I then edited for a clean white background and a smaller cursor indicator:
   
-  ``` // Active mode
-
+  ``` 
 void setup() {
   size (500, 500);
 }
@@ -37,6 +36,7 @@ void draw() {
 
   // coordinate plotting circle
   circle (mouseX, mouseY, 10);
-  println("mouse coordinates = " + mouseX +"," + mouseY);```
+  println("mouse coordinates = " + mouseX +"," + mouseY);
+  ```
 
 
