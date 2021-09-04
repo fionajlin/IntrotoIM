@@ -5,7 +5,7 @@ For our first project with Processing, we were asked to create a self-portrait t
 
 For the actual development of my self portrait, I began by setting up the active system in order for me to locate the coordinates I needed. Using the code for the triangle that we worked with in class as a reference, I made edits to the parameters to make a setup that I felt comfortable starting with. 
 
-The section of code and the resulting image we were given in class was as follows: 
+The section of code we were given in class was as follows: 
 
 ```
 void setup() {
@@ -22,7 +22,6 @@ void draw() {
   circle (mouseX, mouseY, 30);
   println("mouse coordinates = " + mouseX +"," + mouseY);
   ```
-  ![](IntroToIM/media/classcode.png)
   
   which I then edited for a clean white background and a smaller cursor indicator:
   
