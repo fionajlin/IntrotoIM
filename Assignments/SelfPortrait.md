@@ -22,7 +22,7 @@ void draw() {
   circle (mouseX, mouseY, 30);
   println("mouse coordinates = " + mouseX +"," + mouseY);
   ```
-  ![](media/classcode.png)
+  ![](IntroToIM/media/classcode.png)
   
   which I then edited for a clean white background and a smaller cursor indicator:
   
