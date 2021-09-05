@@ -23,7 +23,7 @@ void draw() {
   println("mouse coordinates = " + mouseX +"," + mouseY);
   ```
   
-  ![classcode](https://github.com/fionajlin/IntrotoIM/blob/main/media/classcode.png)
+  ![classcode](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/classcode.png)
   
   which I then edited for a clean white background and a smaller cursor indicator:
   
@@ -110,6 +110,10 @@ void draw() {
   triangle (230, 293, 262, 293, 247, 318);
 }
 ```
+
+This resulted in my self portrait: 
+
+![selfportrait](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/selfportrait.png)
 
 In particular, I had a lot of trouble with the radian values used for the hair. I originally wanted to use two arc function half circles in order to create my side part, but I had a lot of trouble determining the radian value of the start and end points I wanted to use, and instead decided to use just a regular half circle and add a triangular cutout to indicate the hair shape instead. I still like how the hair came out in the end, so I was pretty happy with the method I chose.
 
