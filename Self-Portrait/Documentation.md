@@ -41,6 +41,8 @@ void draw() {
   println("mouse coordinates = " + mouseX +"," + mouseY);
   ```
   
+  ![cleanplot](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/cleanplot.png)
+  
 In order to actually create my self-portrait, I worked mainly with basic shapes while consulting the reference page on the Processing website. In addition, for the colors I used, I searched up rgb values for skin tones and for colors so that I could plug in the shade I wanted for my image. 
 
 After much trial and error, my code ended up looking like this:
