@@ -113,7 +113,7 @@ void draw() {
 }
 ```
 
-This resulted in my self portrait: 
+This resulted in my self portrait (the small circle in the top left is my cursor!): 
 
 ![selfportrait](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/selfportrait.png)
 
