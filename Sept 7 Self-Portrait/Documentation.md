@@ -23,7 +23,7 @@ void draw() {
   println("mouse coordinates = " + mouseX +"," + mouseY);
   ```
   
-  ![classcode](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/classcode.png)
+  ![classcode](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%207%20Self-Portrait/media/classcode.png)
   
   which I then edited for a clean white background and a smaller cursor indicator:
   
@@ -41,7 +41,7 @@ void draw() {
   println("mouse coordinates = " + mouseX +"," + mouseY);
   ```
   
-  ![cleanplot](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/cleanplot.png)
+  ![cleanplot](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%207%20Self-Portrait/media/cleanplot.png)
   
 In order to actually create my self-portrait, I worked mainly with basic shapes while consulting the [reference page](https://processing.org/reference/#shape) on the Processing website. In addition, for the colors I used, I searched up rgb values for skin tones and for colors so that I could plug in the shade I wanted for my image. 
 
@@ -115,7 +115,7 @@ void draw() {
 
 This resulted in my self portrait (the small circle in the top left is my cursor!): 
 
-![selfportrait](https://github.com/fionajlin/IntrotoIM/blob/main/Self-Portrait/Media%20Files/selfportrait.png)
+![selfportrait](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%207%20Self-Portrait/media/selfportrait.png)
 
 In particular, I had a lot of trouble with the radian values used for the hair. I originally wanted to use two arc function half circles in order to mimic how I part my hair, but I had a lot of trouble determining the radian value of the start and end points I wanted to use. At one point I attempted to convert to radians using degrees instead, but it was a little unsatisfactory to me due to the diffficulty of determining exactly what value the angles I was looking for were. In the end, I went back to using radians and instead decided to use just a regular half circle with a triangular cutout to indicate the hair shape. I liked how the hair came out in the end and thought it fit the overall style of my image, so I was pretty happy with the method I chose.
 
