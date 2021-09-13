@@ -2,7 +2,7 @@
 
 ### Week 2 | Fiona Lin | due September 14th 
 
-My poject this week is a piece of artwork that uses random functions for coloring, but unfortunately it seems the video file doesn't load properly so I've attached a still image here instead. The video version of the piece can be found [here](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%2014th%20Loop%20Artwork/media/video%20loop%20art.mov)
+My project this week is a piece of artwork that uses random functions for coloring, but unfortunately it seems the video file doesn't load properly so I've attached a still image here instead. The video version of the piece can be found [here](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%2014th%20Loop%20Artwork/media/video%20loop%20art.mov)
 
 ![loopart](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%2014th%20Loop%20Artwork/media/still%20loop%20image.png)
 
