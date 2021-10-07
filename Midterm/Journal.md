@@ -18,7 +18,11 @@ Story plotting: (in order to proceed - hit spacebar)
 - circle has had a major crush on square for a long time. today is the day he has to confess!
 
 [good ending] circle manages to meet square alone and gets the courage to confess - happy ever after
+
 [bad ending 1] circle gets square alone but is interrupted because he hesitated
+
 [bad ending 2] circle gets lost in the school and fails to meet square
+
 [bad ending 3] circle gets delayed by a friend and fails to meet square
+
 [bad ending 4] circle is talked out of confessing by his friend and decides to keep pining
