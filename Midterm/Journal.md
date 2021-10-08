@@ -27,5 +27,7 @@ Story plotting: (in order to proceed - hit spacebar)
 
 [bad ending 4] circle is talked out of confessing by his friend and decides to keep pining
 
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Midterm/media/game%20plan.jpg)
+
 
 NOTE FOR CODE: need to redraw every frame --> use background function every time at the start and then redraw everything that stays constant
