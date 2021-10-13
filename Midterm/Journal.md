@@ -31,3 +31,16 @@ Story plotting: (in order to proceed - hit spacebar)
 
 
 NOTE FOR CODE: need to redraw every frame --> use background function every time at the start and then redraw everything that stays constant
+
+requirements: 
+- need sound effects 
+  - maybe some kind of page flipping bc its a story = book?
+- shapes
+  - fulfilled with characters - all shapes
+- text
+  - fulfilled bc text-based story game
+- restart function
+  - coded in with separate function + linked to [r] key
+- image
+  - added scenery image in clip art style that still fits the style
+  - window for the scene where square leaves the school
