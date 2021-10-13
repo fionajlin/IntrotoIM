@@ -14,4 +14,4 @@ Tuesdays *10:25 AM to 1:05 PM* | Thursdays *11:50 AM to 1:05 PM*
 
 [Generative Text (Sept 29th) Image ver.](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%2029%20Generative%20Text/media/generative%20text.png) | [Downloadable Video ver.](https://github.com/fionajlin/IntrotoIM/blob/main/Sept%2029%20Generative%20Text/media/generative_text_video.mov)
 
-[Midterm Game Screen Capture](https://github.com/fionajlin/IntrotoIM/blob/main/Midterm/media/game%20title%20card.png)
+[Midterm Game Screen Capture (Oct 14th)](https://github.com/fionajlin/IntrotoIM/blob/main/Midterm/media/game%20title%20card.png)
