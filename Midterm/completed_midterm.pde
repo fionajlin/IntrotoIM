@@ -231,8 +231,13 @@ void noconfidence () {
   textAlign (CENTER);
   textFont (gamefont);
   text (noconfidence, 50, 50, 700, 200);
-
+  
   text (restart, 50, 530, 700, 300);
+  
+  textFont (decofont);
+  text (":(", 550, 280);
+  circle (400, 370, 300);
+
 }
 
 void choice1R () {
@@ -386,7 +391,11 @@ void lostway () {
   textFont (gamefont);
   text (lostway, 50, 50, 700, 200);
 
-  text (restart, 50, 530, 700, 300);
+  text (restart, 50, 550, 700, 300);
+   
+  textFont (decofont);
+  text (":(", 550, 300);
+  circle (400, 400, 250);
 }
 
 void choice3R () {
@@ -519,7 +528,11 @@ void interruption () {
   textFont (gamefont);
   text (interruption, 50, 50, 700, 300);
 
-  text (restart, 50, 530, 700, 300);
+  text (restart, 50, 550, 700, 300);
+   
+  textFont (decofont);
+  text (":(", 550, 300);
+  circle (400, 400, 250);
 }
 
 //restart function that brings program back to title card
