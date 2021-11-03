@@ -18,6 +18,6 @@ Like this, my simple but unconventional switch was completed. I then coded a sim
 
 I then noticed that as opposed to the blue LED, my red LED was really dim when lit up. I'm not sure if the LED itself was just like that, as even when I swapped for a different red LED, the light still remained rather dim. I then wondered if it was an issue with the wires, so I tried changing some of the wires that I hooked up to the red LED, but the light remained unchanged. I'm not sure exactly why the blue LED was so much brighter, but since both lights lit up properly when they were supposed to, I concluded that the circuit was working properly. 
 
-Attached [here](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%204%20Switch/media/arduino%20switch%20vid.mov) is a video demonstrating how my circuit works!
+Attached [here](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%204%20Switch/media/arduino%20switch%20vid.mov) is a video demonstrating how my book switch works!
 
 Overall, I thought this project was a fun way to get more accustomed to building my own circuits and familiarizign myself with the concepts involved with switches. I think that by putting these ideas into use, I got to better understand how the circuit functions and how I should modify my code in order to test whether different aspects of my project was working.
