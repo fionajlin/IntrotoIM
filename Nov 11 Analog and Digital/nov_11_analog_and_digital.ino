@@ -27,7 +27,7 @@ int blueldrValue = analogRead(ldrPin);
 
   }
    else if (switchValue == HIGH) { //the switch would invert the neutral state of the project where the bue LED is lit while waiting for light sensor manipulation
-      analogWrite (redPin, 100);
-      analogWrite (bluePin, 0);
+      digitalWrite (redPin, 100);
+      digitalWrite (bluePin, 0);
     }
 }
