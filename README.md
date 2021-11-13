@@ -18,4 +18,4 @@ Tuesdays *10:25 AM to 1:05 PM* | Thursdays *11:50 AM to 1:05 PM*
 
 [Unusual Switch (Nov 4th)](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%204%20Switch/media/arduino%20switch%20vid.mov)
 
-[Analog and Digiral Outputs in LED controls](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%2011%20Analog%20and%20Digital/media/video.mov)
+[Analog and Digital Outputs in LED controls (Nov 11th)](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%2011%20Analog%20and%20Digital/media/video.mov)
