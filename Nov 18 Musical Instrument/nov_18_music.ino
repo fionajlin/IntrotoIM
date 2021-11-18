@@ -39,9 +39,8 @@ void loop() {
 
     //constrains the light readings between 100 and 600 (slightly widened range of the consistent readings in this project's environment)
     ldrValue = constrain(ldrValue, 100, 600);
-    ldrValue = map(ldrValue, 100, 600, 0, 255); //mapped these values to the minimum and maximum values of the LEDs
 
-    if (ldrValue > 150) {
+    if (ldrValue > 300) {
       for (int note = 0; note < sizeof(twinkletwinkle) / sizeof(twinkletwinkle[0]); note++) {
         int duration = 1000 / twinklelength[note]; // note duration = one sec (1000 ms) divided by type of note
         tone(buzzer, twinkletwinkle[note], duration); // play notes
@@ -51,7 +50,7 @@ void loop() {
         noTone (buzzer); //stop melody
       }
     }
-   else if (ldrValue < 150) {
+   else if (ldrValue < 300) {
       for (int note = 0; note < sizeof(lowtwinkle) / sizeof(lowtwinkle[0]); note++) {
         int duration = 1000 / lowtwinklelength[note]; // note duration = one sec (1000 ms) divided by type of note
         tone(buzzer, lowtwinkle[note], duration); // play notes
