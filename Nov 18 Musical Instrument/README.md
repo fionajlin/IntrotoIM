@@ -2,9 +2,9 @@
 
 ### Fiona Lin | due November 18th
 
-For this week's assignment, we were tasked with making a "musical instrument" with the piezo buzzer and some type of analog sensor. I decided I wanted to use the LDR sensor (photoresistor) as I enjoy seeing how the difference in light changes the result you get. I then drew up a simple schematic for my circuit. 
+For this week's assignment, we were tasked with making a "musical instrument" with the piezo buzzer and some type of analog sensor. I decided I wanted to use the LDR sensor (photoresistor) as I enjoy seeing how the difference in light changes the result you get. I then drew up a simple schematic for my circuit. My original schematic was actually incorrect, so I then consulted my classmate Anushka's schematic and re-drew it as below:
 
-![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%2018%20Musical%20Instrument/media/nov18%20music%20schematic.jpg)
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov%2018%20Musical%20Instrument/media/nov%2018%20edit%20schematic.jpg)
 
 Once I had my circuit built, I tested the switch with DigitalReadSerial and the photoresistor with AnalogReadSerial just to make sure everything was functioning correctly, and also to get a sense of how the light readings varied in the environment I was working with. I used these values to constrain my sensor values later on. 
 
