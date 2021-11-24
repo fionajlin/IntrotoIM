@@ -2,7 +2,11 @@
 
 For this week's projects, we worked on getting Arduino and Processing to communicate with each other, and using serial information from Arduino to control elements within Processing.
 
-Our first exercise was to use a sensor in Arduino to control the horizontal movement of a circle in Processing. I followed along with the recorded lecture in which we discussed communication, and consulted the examples provided in the lecture as well as in files such as AnalogReadSerial. I decided to use an LDR sensor, since I thought it would be fun to control the movement with light, and also because we already went over the potentiometer in the lecture. I think because I had a lot of references and instructions to follow along with, coding this step was relatively straightforward for me, and I could understand concepts that would otherwise be kind of confusing pretty well. 
+Our first exercise was to use a sensor in Arduino to control the horizontal movement of a circle in Processing. I followed along with the recorded lecture in which we discussed communication, and consulted the examples provided in the lecture as well as in files such as AnalogReadSerial. I decided to use an LDR sensor, since I thought it would be fun to control the movement with light, and also because we already went over the potentiometer in the lecture. I drew a simple schematic and then built the circuit based off of it. 
+
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov25%20Communication/media/nov25_comms1.jpg)
+
+I think because I had a lot of references and instructions to follow along with, coding this step was relatively straightforward for me, and I could understand concepts that would otherwise be kind of confusing pretty well. 
 
 I noticed while testing my code, however, that I would sometimes forget that both programs use the same serial port. There were instances when I had the serial monitor open in Arduino to check that the sensor was working and then tried to run the Processing code at the same time, to which I got an error along the lines of "serial port is busy." After it happened a couple of times at different points of testing both codes, I finally remembered to close the monitor or stop the Processing sketch before making adjustments. 
 
