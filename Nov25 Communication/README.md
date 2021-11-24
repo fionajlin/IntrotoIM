@@ -4,7 +4,7 @@ For this week's projects, we worked on getting Arduino and Processing to communi
 
 Our first exercise was to use a sensor in Arduino to control the horizontal movement of a circle in Processing. I followed along with the recorded lecture in which we discussed communication, and consulted the examples provided in the lecture as well as in files such as AnalogReadSerial. I decided to use an LDR sensor, since I thought it would be fun to control the movement with light, and also because we already went over the potentiometer in the lecture. I drew a simple schematic and then built the circuit based off of it. 
 
-![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov25%20Communication/media/nov25_comms1.jpg)
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov25%20Communication/media/nov25%20comms1.jpg)
 
 I think because I had a lot of references and instructions to follow along with, coding this step was relatively straightforward for me, and I could understand concepts that would otherwise be kind of confusing pretty well. 
 
