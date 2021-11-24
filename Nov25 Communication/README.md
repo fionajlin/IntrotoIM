@@ -19,7 +19,7 @@ copying my code into a github page temporarily and closing down Processing so I 
 
 For the second part of my assignment, I decided to use mouse position as a slider to control LED brightness. In order to begin this project, I first drew up a schematic for it, then built my circuit accordingly.
 
-![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov25%20Communication/media/Nov25_Comm2_Schematic_%203.jpg)
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov25%20Communication/media/Nov25_Comm2_Schematic.jpg)
 ![](https://github.com/fionajlin/IntrotoIM/blob/main/Nov25%20Communication/media/nov25_comms2.jpg)
 
 In terms of my code, I chose to utilize only mouseY as the value for brightness, so I fixed the position of my slider with an assigned x value. I had to consult the lecture notes as well as the recording a couple times as well, as I couldn't quite figure out if the communication I was getting was correct. I ran into an issue where the LED light would jump back to brightness once I crossed the value 255 on my Processing sketch, which I resolved by constraining the values between 0 and 255 on processing to match the LED's brightness limitations. Although this solved the issue of the LED coming back on, I still don't really understand why the problem occurred in the first place. While working on this code, I also consulted [this Arduino page](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Dimmer) to make sure that I was setting up my communication between the programs correctly. 
