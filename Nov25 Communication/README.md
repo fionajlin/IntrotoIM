@@ -1,4 +1,5 @@
-
+## Communication Between Processing and Arduino
+### Fiona Lin | due November 25th
 
 For this week's projects, we worked on getting Arduino and Processing to communicate with each other, and using serial information from Arduino to control elements within Processing.
 
