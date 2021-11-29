@@ -1,4 +1,4 @@
-##Refined Final Project Idea
+## Refined Final Project Idea
 
 After a bit more consideration on my project, I've decided to work with the guessing game idea, where the player will try to match the program's randomized color selection. 
 
