@@ -9,3 +9,12 @@ In order for this system to work, I think I'll work with four or five color opti
 I think the part that I currently have most questions about is the timing of the game, where if I want to work with a timed game, the player should have a certain
 amount of time before the program forcibly moves to displaying the colors, but I'm not quite sure how to make sure that the randomized color is not displayed before that time is up or the player has locked in their choice. It's most likely that the solution is simpler than I think, so I believe once I actually have my circuit built and can begin coding and testing, I'll have more specific questions as well as ways to consult forums online. 
 
+
+###Dec 07 Update:
+- Color picking mechanism is working
+- Title Card added
+Issues: 
+- Random generator does not trigger when space key is pressed a second time - remains black (bg)
+      - random generator worked when title card was not implemented - perhaps the use of state variable caused interference in registering pressed key sequence?
+- Have not been able to figure out how to identify whether left side and right side are the same color
+      - idea was to use the hexcode and boolean, but not sure how to identify the individual hexcodes separatele, as well as where to place the if statement to verify similarity
