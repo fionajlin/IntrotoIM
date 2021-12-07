@@ -13,8 +13,10 @@ amount of time before the program forcibly moves to displaying the colors, but I
 ### Dec 07 Update:
 - Color picking mechanism is working
 - Title Card added
+
 Issues: 
+
 - Random generator does not trigger when space key is pressed a second time - remains black (bg)
-      - random generator worked when title card was not implemented - perhaps the use of state variable caused interference in registering pressed key sequence?
+      -- random generator worked when title card was not implemented - perhaps the use of state variable caused interference in registering pressed key sequence?
 - Have not been able to figure out how to identify whether left side and right side are the same color
-      - idea was to use the hexcode and boolean, but not sure how to identify the individual hexcodes separatele, as well as where to place the if statement to verify similarity
+      -- idea was to use the hexcode and boolean, but not sure how to identify the individual hexcodes separatele, as well as where to place the if statement to verify similarity
