@@ -10,7 +10,7 @@ I think the part that I currently have most questions about is the timing of the
 amount of time before the program forcibly moves to displaying the colors, but I'm not quite sure how to make sure that the randomized color is not displayed before that time is up or the player has locked in their choice. It's most likely that the solution is simpler than I think, so I believe once I actually have my circuit built and can begin coding and testing, I'll have more specific questions as well as ways to consult forums online. 
 
 
-###Dec 07 Update:
+### Dec 07 Update:
 - Color picking mechanism is working
 - Title Card added
 Issues: 
