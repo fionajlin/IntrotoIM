@@ -14,9 +14,14 @@ PFont gamefont;
 String title = "Read My Mind: A Color Guessing Game";
 String proceed = "[Space] to Proceed";
 
-//set up initial color
+//win text
+String win = "Congratulations! You have won.";
+String restart = "[R] to Play Again";
+
+//set up colors
 color colvalue = color(255);
 int mycolor;
+color randomcolor;
 
 //set up color array for randomization
 color[] coloroption = {#FF0000, #008000, #0000FF};
@@ -76,23 +81,27 @@ void colorpicker() {
   }
 }
 
-void keyReleased() {
-  if (currentstate == 0 && key == ' ') { 
+void mouseClicked(){
     flag = true;
     background (0);
     currentstate = 1;
-  }
-  else if (currentstate == 1 && key == ' '){ 
-    //CURRENT PROBLEM: RANDOM COLOR DOES NOT GENERATE WHEN SPACE HIT SECOND TIME
+}
+
+void keyReleased() {
+  if (currentstate == 1 && key == ' '){ 
+    //CURRENT PROBLEM: RANDOM COLOR DOES NOT GENERATE WHEN SPACE HIT
       for (int i = 0; i < coloroption.length; i++) {
-      color randomcolor = coloroption [(int) random(coloroption.length)];
+      randomcolor = coloroption [(int) random(coloroption.length)];
       rect(width/2, 0, width/2, height);
       fill (randomcolor);
       }
     }
-  else if (currentstate == 2 && key == 'B'){
+  else if (key == 'r'){
     titlescreen ();
   }   
+  else if (currentstate == 2 && key == ' '){
+    comparison();
+  }
 }
 
 void gameonce () {
@@ -108,4 +117,18 @@ void titlescreen (){
   textAlign (CENTER);
   textFont (gamefont);
   text (title, 150, 200, 700, 800);
+}
+
+void comparison (){
+  if (colvalue == randomcolor){
+    winscreen();
+  }
+}
+
+void winscreen (){
+  background (colvalue);
+  textAlign (CENTER);
+  textFont (gamefont);
+  text (win, 150, 200, 700, 800);
+  
 }
