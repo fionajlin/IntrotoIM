@@ -126,11 +126,9 @@ void colorpickera() { //picks color through arduino
     acolvalue = color(#008000);
   } else if (mycolor == 3) {            // chooses blue
     acolvalue = color(#0000FF);
-  }
-  if (mycolor == 4) {            // chooses yellow
+  } else if (mycolor == 4) {            // chooses yellow
     acolvalue = color(#FFFF00);
-  }
-  if (mycolor == 5) {            // chooses purple
+  } else if (mycolor == 5) {            // chooses purple
     acolvalue = color(#800080);
   }
 }
@@ -143,11 +141,9 @@ void colorpickerp() { //picks color through processing
     pcolvalue = color(#008000);
   } else if (randomcolor == 3) {            // chooses blue
     pcolvalue = color(#0000FF);
-  }
-  if (randomcolor == 4) {            // chooses yellow
+  } else if (randomcolor == 4) {            // chooses yellow
     acolvalue = color(#FFFF00);
-  }
-  if (randomcolor == 5) {            // chooses purple
+  } else if (randomcolor == 5) {            // chooses purple
     acolvalue = color(#800080);
   }
 }
