@@ -20,3 +20,22 @@ Issues:
       -- random generator worked when title card was not implemented - perhaps the use of state variable caused interference in registering pressed key sequence?
 - Have not been able to figure out how to identify whether left side and right side are the same color
       -- idea was to use the hexcode and boolean, but not sure how to identify the individual hexcodes separatele, as well as where to place the if statement to verify similarity
+      
+### Dec 8 Update:
+
+- Visited IM Lab to consult Jack on my code
+- Re-structured my state machine, moved all of the construction to draw function, used keyReleased only to move in between states
+- Fixed minor issues with color and background
+
+### Dec 10 Update:
+- Re-structured my color system - moved to use if statements for both in order to cross check the input as an integer, rather than using if statements for the serial and an array for the randomization
+
+
+### Dec 13 Update:
+
+Troubleshooting at IM Lab with Jack - fixed issues with color continuation, text color, verification of same color, delay, state movement, inconsistent win and lose screens
+
+New issue: implemented two extra color options and buttons, win and lose screen returned to being inconsistent --> can't figure out why, as this issue had cropped up earlier but seemed to be resolved when I was discussing the code with Jack
+
+User testing video :
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Final%20Project/media/final%20project%20testing.mov)
