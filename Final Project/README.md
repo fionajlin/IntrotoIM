@@ -6,6 +6,10 @@ For my final project, I decided to create a color-based guessing game where the 
 
 In order to begin making my game, I first drew a schematic of what my circuit should look like, then built it accordingly. 
 
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Final%20Project/media/final%20schematic.jpg)
+
+![](https://github.com/fionajlin/IntrotoIM/blob/main/Final%20Project/media/circuit.jpg)
+
 Once I had my circuit ready, I began coding my program. In order to ensure that each switch corresponded to only one color, I needed to send a different serial every time a different button was pressed. As such, I set up if statements where if the first button was pressed, it would send the serial "1" and so on until I had five serial inputs set up. Then, on the Processing side, I made sure that the program was able to receive those serials by setting up a vaiable for them, and then applied those variables to another set of if statements that connected each serial to a specific color. 
 
 From there, I went on to code my game using a state machine that moved forward using the space bar. That way I could ensure that the game would not proceed without the player's choice having been made. 
@@ -16,4 +20,4 @@ When working on my code, however, I ran into quite a few issues, one of which pe
 
 This was quite disappointing to me, as on the day of the showcase the bug showed up a couple times and people testing my game were rather (and understandably) confused. I explained it as a result of randomization, but I wasn't super satisfied with how it turned out, so I wished I had been able to identify and fix the bug when I had still been in the lab with Jack. However, I think I gave the project my best effort as someone with little to no understanding of coding outside of this class, so I'm still at least a little proud of all of the skills that I've been able to learn throughout this semester. 
 
-
+Videos: [User testing](https://github.com/fionajlin/IntrotoIM/blob/main/Final%20Project/media/final%20project%20testing.mov), [Recording](https://github.com/fionajlin/IntrotoIM/blob/main/Final%20Project/media/game%20.mov)
